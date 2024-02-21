@@ -2,8 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 package fundamentos
 fun main(args: Array<String>){
-    imprimirSoma(4 ,5)
-}
-fun imprimirSoma(a: Int, b:Int){
-    println(a + b)
-}
+        val aprovados = listOf("João", "Maria", "Pedro")
+        print("O primeiro colocado foi ${aprovados[0]}")
+    }
+

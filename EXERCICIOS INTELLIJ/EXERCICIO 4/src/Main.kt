@@ -2,8 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 package fundamentos
 fun main(args: Array<String>){
-    imprimirSoma(4 ,5)
+    println(soma(2, 3))
+    println(soma(11))
 }
-fun imprimirSoma(a: Int, b:Int){
-    println(a + b)
+fun soma(a:Int, b: Int = 1): Int{
+    return a + b
 }
